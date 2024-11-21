@@ -6,6 +6,7 @@
 - We need a function the determines if the player has won/lost
 - We need a function that determines if a ship has been hit
 - We need a function that determines if a ship has been sunk
+- Look into AGGrid
 
 ## Primary & Tracking Boards
 
