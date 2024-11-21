@@ -24,11 +24,11 @@
     height: 10%;
 }
 
-#row-1, #row-3, #row-5, #row-7, #row-9 {
+#row-a, #row-c, #row-e, #row-g, #row-i {
     background-color: lightcoral;
 }
 
-#row-2, #row-4, #row-6, #row-8, #row-10 {
+#row-b, #row-d, #row-f, #row-h, #row-j {
     background-color: lightskyblue;
 }
 
