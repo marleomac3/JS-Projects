@@ -32,3 +32,32 @@ for (let i = 0; i < boardSize; i++) {
         boardMap.set(coord, [i, j]);
     }
 }
+
+//Asigns IDs to each cell
+function assignCellIds() {
+    document.querySelectorAll(".row").forEach((row) => {
+        const rowId = row.id.split("-")[1];
+        row.querySelectorAll(".cell").forEach((cell, index) => {
+            cell.id = `${rowId}${index + 1}`;
+        });
+    });
+}
+assignCellIds();
+
+//Changing the cell background color when clicked
+let isRed = false;
+
+function changeCellColor() {
+    const cells = document.querySelectorAll(".cell");
+  
+    cells.forEach((cell) => {
+      cell.addEventListener("click", () => {
+        if (cell.style.backgroundColor === "red") {
+          cell.style.backgroundColor = "";
+        } else {
+          cell.style.backgroundColor = "red";
+        }
+      });
+    });
+  }
+  changeCellColor();
