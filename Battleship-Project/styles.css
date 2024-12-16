@@ -47,6 +47,11 @@ body {
     align-items: center;
 }
 
+/* .cell:hover {
+    cursor: pointer;
+    background-color: #f2e4c9;
+} */
+
 #letter-coords {
     height: 600px;
     display: flex;
