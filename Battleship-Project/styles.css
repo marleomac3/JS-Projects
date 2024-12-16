@@ -1,15 +1,21 @@
+body {
+    background-color: #064273;
+    font-family: "Fira Sans", sans-serif;
+}
+
 #game-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    justify-content: center;
 }
 
 #title {
     text-align: center;
+    color: #f2e4c9;
 }
 
 #board {
-    background-color: lightgreen;
     height: 600px;
     width: 600px;
     display: flex;
@@ -25,11 +31,11 @@
 }
 
 #row-a, #row-c, #row-e, #row-g, #row-i {
-    background-color: lightcoral;
+    background-color: #76b6c4;
 }
 
 #row-b, #row-d, #row-f, #row-h, #row-j {
-    background-color: lightskyblue;
+    background-color: #def3f6;
 }
 
 .cell {
@@ -39,4 +45,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* .cell:hover {
+    cursor: pointer;
+    background-color: #f2e4c9;
+} */
+
+#letter-coords {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+#letter-coords div {
+    height: 57px;
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+    color: #f2e4c9;
+}
+
+#number-coords  {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+#number-coords div {
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    color: #f2e4c9;
 }
