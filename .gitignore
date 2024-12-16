@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+
+# Build Artifacts
+dist/
+build/
+
+# IDE-specific files
+.vscode/
+*.suo
+*.ntvs*
+*.vs*
+*.db*
+*.ncb
+*.aps
+*.pch
+*.obj
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.dll
+
+# OS-specific files
+/.DS_Store

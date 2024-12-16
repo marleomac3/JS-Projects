@@ -32,3 +32,7 @@
         - We need to make sure that ships cannot be placed out of bounds
     - For now, we will prevent players from overlapping ships 
     - When a player hovers over a cell, the cell should be highlighted according to the ship's length
+
+## Useful Terminal Commands
+- npx tailwindcss-i ./src/input.css -0 ./src/output.css --watch
+    - This will watch for changes in the input.css file and update the output.css file automatically
