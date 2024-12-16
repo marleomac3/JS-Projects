@@ -34,5 +34,5 @@
     - When a player hovers over a cell, the cell should be highlighted according to the ship's length
 
 ## Useful Terminal Commands
-- npx tailwindcss-i ./src/input.css -0 ./src/output.css --watch
+- npx tailwindcss-i ./src/input.css -o ./src/output.css --watch
     - This will watch for changes in the input.css file and update the output.css file automatically
