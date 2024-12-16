@@ -15,8 +15,7 @@ body {
 }
 
 #title {
-    text-align: center;
-    color: #f2e4c9;
+    @apply text-[#f2e4c9] text-center text-4xl font-semibold pb-2;
 }
 
 #board {
