@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+h1 {
+    @apply text-7xl;
+    @apply text-[#015871];
+    @apply mb-2;
+    @apply font-bold;
+    @apply font-jolly;
+}
+
+p {
+    @apply text-[#015871];
+    @apply mt-0;
+    @apply font-semibold;
+    @apply font-sans;
+}
