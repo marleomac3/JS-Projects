@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Fira Sans", sans-serif;
+}
+
+#game-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#title {
+    @apply text-[#015871] text-center text-4xl font-semibold pb-2;
+}
+
+#board {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 48px -18px rgba(0,0,0,0.96);
+}
+
+.row {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10%;
+}
+
+#row-a, #row-c, #row-e, #row-g, #row-i {
+    background-color: #76b6c4;
+}
+
+#row-b, #row-d, #row-f, #row-h, #row-j {
+    background-color: #def3f6;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .cell:hover {
+    cursor: pointer;
+    background-color: #f2e4c9;
+} */
+
+#letter-coords {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+#letter-coords div {
+    height: 57px;
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+    color: #015871;
+}
+
+#number-coords  {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+#number-coords div {
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    color: #015871;
+}
